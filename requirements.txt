@@ -1,6 +1,17 @@
+# Basic
 numpy
 scipy
 pandas
 matplotlib
 scikit-learn
+jupyterlab
+
+# Parallel
+joblib
+
+# Statistics stuff
 statsmodels==0.12.1
+
+# Deep Learning
+tensorflow
+tqdm
