@@ -5,6 +5,7 @@ pandas
 matplotlib
 scikit-learn
 jupyterlab
+seaborn
 
 # Parallel
 joblib
