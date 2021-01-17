@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+-   [Fetching the data from the API
+    service](#fetching-the-data-from-the-api-service)
+-   [Running exploratory data analysis on daily
+    data](#running-exploratory-data-analysis-on-daily-data)
+-   [Modeling SARIMAX](#modeling-sarimax)
+-   [Implementing LSTM](#implementing-lstm)
+-   [Wrangling the data to get it back to hourly
+    resolution](#wrangling-the-data-to-get-it-back-to-hourly-resolution)
+-   [Running exploratory data analysis on hourly
+    data](#running-exploratory-data-analysis-on-hourly-data)
+-   [Prophet](#prophet)
 
-You can use the [editor on GitHub](https://github.com/quan-possible/energy-demand-prediction/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Fetching the data from the API service
+======================================
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Link to notebook
+here.](https://quan-possible.github.io/energy-demand-prediction/data-fetching)
 
-### Markdown
+Running exploratory data analysis on daily data
+===============================================
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Link to notebook
+here.](https://quan-possible.github.io/energy-demand-prediction/eda_daily)
 
-```markdown
-Syntax highlighted code block
+Modeling SARIMAX
+================
 
-# Header 1
-## Header 2
-### Header 3
+[Link to notebook
+here.](https://quan-possible.github.io/energy-demand-prediction/sarimax)
 
-- Bulleted
-- List
+Implementing LSTM
+=================
 
-1. Numbered
-2. List
+[Link to notebook
+here.](https://quan-possible.github.io/energy-demand-prediction/lstm)
 
-**Bold** and _Italic_ and `Code` text
+Wrangling the data to get it back to hourly resolution
+======================================================
 
-[Link](url) and ![Image](src)
-```
+[Link to notebook
+here.](https://quan-possible.github.io/energy-demand-prediction/wrangling)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Running exploratory data analysis on hourly data
+================================================
 
-### Jekyll Themes
+[Link to notebook
+here.](https://quan-possible.github.io/energy-demand-prediction/eda_hourly)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/quan-possible/energy-demand-prediction/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Prophet
+=======
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Link to notebook
+here.](https://quan-possible.github.io/energy-demand-prediction/prophet)
