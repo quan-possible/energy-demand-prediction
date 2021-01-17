@@ -14,5 +14,9 @@ joblib
 statsmodels==0.12.1
 
 # Deep Learning
-tensorflow
+torch
 tqdm
+
+# Misc.
+holidays
+fastprogress
