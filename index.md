@@ -1,53 +1,28 @@
--   [Fetching the data from the API
-    service](#fetching-the-data-from-the-api-service)
--   [Running exploratory data analysis on daily
-    data](#running-exploratory-data-analysis-on-daily-data)
--   [Modeling SARIMAX](#modeling-sarimax)
--   [Implementing LSTM](#implementing-lstm)
--   [Wrangling the data to get it back to hourly
-    resolution](#wrangling-the-data-to-get-it-back-to-hourly-resolution)
--   [Running exploratory data analysis on hourly
-    data](#running-exploratory-data-analysis-on-hourly-data)
--   [Prophet](#prophet)
+Introduction
+============
 
-Fetching the data from the API service
-======================================
+This project aims to predict aggregate electricity demand from a
+selected list of locations in the City of Helsinki using the classical
+Box-Jenkins method, a Deep Learning model, and a Facebook Prophet model.
 
-[Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/data-fetching)
+This project consists of two parts. The first part is about predicting
+daily electricity demand with the Box-Jenkins method and the Deep
+Learning model. The second part is about predicting hourly electricity
+demand using Facebook Prophet.
 
-Running exploratory data analysis on daily data
-===============================================
+Authors: [Bruce Nguyen](https://github.com/quan-possible) and [Son
+Le](https://github.com/SonAlexLe). The Github repository of this project
+is [located
+here](https://github.com/quan-possible/energy-demand-prediction).
 
-[Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/eda_daily)
-
-Modeling SARIMAX
-================
+First part: Analysis on daily data
+==================================
 
 [Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/sarimax)
+here.](https://quan-possible.github.io/energy-demand-prediction/daily)
 
-Implementing LSTM
-=================
-
-[Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/lstm)
-
-Wrangling the data to get it back to hourly resolution
-======================================================
+Second part: Analysis on hourly data
+====================================
 
 [Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/wrangling)
-
-Running exploratory data analysis on hourly data
-================================================
-
-[Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/eda_hourly)
-
-Prophet
-=======
-
-[Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/prophet)
+here.](https://quan-possible.github.io/energy-demand-prediction/hourly)
