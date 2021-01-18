@@ -1,28 +1,15 @@
 Introduction
 ============
 
-This project aims to predict aggregate electricity demand from a
-selected list of locations in the City of Helsinki using the classical
-Box-Jenkins method, a Deep Learning model, and a Facebook Prophet model.
+This project aims to predict aggregate electricity demand from a selected list of locations in the City of Helsinki by using the 3 arguably most popular methods: the classical Box-Jenkins method, a Deep Learning model, and a Facebook Prophet model.
 
-This project consists of two parts. The first part is about predicting
-daily electricity demand with the Box-Jenkins method and the Deep
-Learning model. The second part is about predicting hourly electricity
-demand using Facebook Prophet.
+The project itself is divided into 3 parts. The first part is about predicting daily electricity demand using the first 2 models. The second part use Facebook Prophet to do forecasting on hourly demand.
 
-Authors: [Bruce Nguyen](https://github.com/quan-possible) and [Son
-Le](https://github.com/SonAlexLe). The Github repository of this project
-is [located
-here](https://github.com/quan-possible/energy-demand-prediction).
+The data is fetched from the [Nuuka open API](https://helsinki-openapi.nuuka.cloud/swagger/index.html#/), courtesy of [Avoindata.fi](www.avoindata.fi). You can visit the project's Github repository [here](https://quan-possible.github.io/energy-demand-prediction).
 
-First part: Analysis on daily data
-==================================
+Authors: [Bruce Nguyen](https://github.com/quan-possible) and [Son Le](https://github.com/SonAlexLe).
 
-[Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/daily)
+### [Daily data analysis with SARIMAX and LSTM](https://quan-possible.github.io/energy-demand-prediction/daily)
 
-Second part: Analysis on hourly data
-====================================
+### [Hourly data analysis with Prophet](https://quan-possible.github.io/energy-demand-prediction/hourly)
 
-[Link to notebook
-here.](https://quan-possible.github.io/energy-demand-prediction/hourly)
