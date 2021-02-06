@@ -1,5 +1,13 @@
-This notebook aims to analyze and cluster data from clients of a wholesale distributor using techniques such as Principle Component Analysis and k-means clustering.
+# Helsinki Energy Demand Prediction
 
-The data is fetched from the [UCI Machine Learning repository](https://archive.ics.uci.edu/ml/datasets/wholesale+customers). Visit the Github repository of the project at [github.com/quan-possible/segmentation](https://github.com/quan-possible/segmentation).
+This project aims to predict aggregate electricity demand from a selected list of locations in the City of Helsinki by using the 3 leading methods: a classical Box-Jenkins model, a Deep Learning Neural Network, and a Facebook Prophet model.
 
-Author: [Bruce Nguyen](https://github.com/quan-possible)
+The project itself is divided into 2 parts. The first one is about predicting *daily* electricity demand using the first 2 models. The second part uses Facebook Prophet to do forecasting on *hourly* demand.
+
+The data is fetched from the [Nuuka open API](https://helsinki-openapi.nuuka.cloud/swagger/index.html#/), courtesy of [Avoindata.fi](www.avoindata.fi). You can visit the project's Github repository [here](https://quan-possible.github.io/energy-demand-prediction).
+
+Authors: [Bruce Nguyen](https://github.com/quan-possible) and [Son Le](https://github.com/SonAlexLe).
+
+### [Daily data analysis with SARIMAX and LSTM](https://quan-possible.github.io/energy-demand-prediction/daily)
+
+### [Hourly data analysis with Prophet](https://quan-possible.github.io/energy-demand-prediction/hourly)
