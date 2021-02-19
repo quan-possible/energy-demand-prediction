@@ -1,6 +1,8 @@
 # Helsinki Energy Demand Prediction
 
-![Result](https://github.com/quan-possible/energy-demand-prediction/blob/main/result.png)
+<p align="center">
+  <img src="https://github.com/quan-possible/energy-demand-prediction/blob/main/result.png" />
+</p>
 
 This project aims to predict aggregate electricity demand from a selected list of locations in the City of Helsinki by using the 3 leading methods: a classical Box-Jenkins model, a Deep Learning Neural Network, and a Facebook Prophet model.
 
