@@ -1,6 +1,6 @@
 # Helsinki Energy Demand Prediction
 
-![]("https://github.com/quan-possible/energy-demand-prediction/blob/main/docs/assets/images/result.png")
+![](https://github.com/quan-possible/energy-demand-prediction/blob/main/docs/assets/images/result.png)
 
 <!-- <p align="center">
   <img src="https://github.com/quan-possible/energy-demand-prediction/blob/main/docs/assets/images/result.png"/>
